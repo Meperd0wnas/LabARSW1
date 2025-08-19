@@ -2,7 +2,6 @@
 
 ## Parte I
 
-    1.
-    ![hilo](assets/image.png)
-    ![hilaMain](assets/image-1.png)
-
+1.  
+![hilo](./assets/image.png)  
+![hilaMain](./assets/image-1.png)
