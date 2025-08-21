@@ -34,7 +34,7 @@ En cambio, cuando se usa run() directamente, no se crea un nuevo hilo: simplemen
 
   ![alt text](./assets/claseThread.png)
 
-    Metodos que preguntan uántas ocurrencias/chequeos hicieron.
+    Metodos que preguntan cuántas ocurrencias/chequeos hicieron.
 
   ![alt text](./assets/metodos1.png)
 
@@ -53,5 +53,7 @@ En cambio, cuando se usa run() directamente, no se crea un nuevo hilo: simplemen
   
   ![alt text](./assets/salida.png)
 
-  
+ ## Parte II.I
+
+   Se podría modificar la implementación introduciendo un contador global compartido que todos los hilos consulten antes de seguir buscando. De esta forma, cuando ya se llegue al mínimo requerido de ocurrencias, los demás hilos pueden detenerse inmediatamente, aunque se deberia tener en cuenta la coordinación y sincronización entre hilos para evitar condiciones de carrera al acceder a ese contador compartido.
 
