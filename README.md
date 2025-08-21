@@ -59,3 +59,28 @@ En cambio, cuando se usa run() directamente, no se crea un nuevo hilo: simplemen
 
    Se podría modificar la implementación introduciendo un contador global compartido que todos los hilos consulten antes de seguir buscando. De esta forma, cuando ya se llegue al mínimo requerido de ocurrencias, los demás hilos pueden detenerse inmediatamente, aunque se deberia tener en cuenta la coordinación y sincronización entre hilos para evitar condiciones de carrera al acceder a ese contador compartido.
 
+## Parte III
+
+  1 hilo
+
+  ![alt text](./assets/1Hilo.png)
+
+  4 hilos
+
+  ![alt text](./assets/4hilos.png)
+
+  8 hilos
+
+  ![alt text](./assets/8hilos.png)
+
+  50 hilos
+
+  ![alt text](./assets/16hilos.png)
+
+  100 hilos
+
+  ![alt text](./assets/100hilos.png)
+
+  ## grafica 
+
+  ![alt text](./assets/grafica.png)
