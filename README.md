@@ -1,5 +1,5 @@
 # Lab ARSW1 
-## Daniel RIcardo Ruge Gomez
+## Daniel Ricardo Ruge Gomez
 
 
 ## Parte I
