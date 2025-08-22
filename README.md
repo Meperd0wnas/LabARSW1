@@ -84,3 +84,7 @@ En cambio, cuando se usa run() directamente, no se crea un nuevo hilo: simplemen
   ## grafica 
 
   ![alt text](./assets/grafica.png)
+
+  ## Hipotesis
+
+  Al ver la gráfica uno podría pensar que mientras más hilos se usen, más rápido se ejecuta el programa porque se está trabajando en paralelo. Pero en realidad esto no siempre es así, ya que crear y manejar muchos hilos también tiene un costo y además depende de cuántos núcleos tenga el procesador. Por eso, aunque al principio los tiempos bajen, después puede pasar lo contrario y tardar más."
