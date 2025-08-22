@@ -97,7 +97,7 @@ Amdahl dice que subir hilos ayuda hasta que el “pedazo secuencial” y los cos
 
     2) ¿Igual a núcleos vs el doble de hilos?
 
-Si el trabajo es CPU-bound, lo óptimo suele ser = núcleos. Poner el doble puede llegar a  ayudar un poco , porque mientras unos esperan otros corren, pero normalmente el extra se come en overhead. 
+Si el trabajo es CPU-bound, lo óptimo suele ser = núcleos por que si usas más hilos que núcleos, esos hilos tienen que turnarse para usar los mismos núcleos. Poner el doble puede llegar a  ayudar un poco , porque mientras unos esperan otros corren, pero normalmente el extra se come en overhead. 
 
     3) ¿Y si en vez de 100 hilos en 1 CPU uso 1 hilo en 100 máquinas? ¿o c hilos en 100/c máquinas?
 
